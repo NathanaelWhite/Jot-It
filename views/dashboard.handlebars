@@ -3,6 +3,7 @@
   <h1>Dashboard</h1>
   
 </header>
+{{!-- <main class="main-responsive"> --}}
 <div class="d-flex justify-content-center pb-3">
 <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX889U0CL85jj?theme=0" width="25%" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
@@ -16,6 +17,7 @@
  <section class="indent-1">
     <!-- Section 1 -->
 
+  <div class="notes-responsive">
     <section id="note-title">
       <div class="list-group-item">
         <a
@@ -52,8 +54,8 @@
 
     <!-- Section 2 -->
     <section id="create">
-      <div class="col-sm">
-        <div class="card" style="width: 42rem; opacity: 95%">
+      <div class="col-sm-md-3 ">
+        <div class="card" style="opacity: 95%">
           <div class="card-body" id="your-notes">
             <div class="mb-3">
               <label for="post-title" class="form-label">Create a
@@ -69,8 +71,8 @@
           </div>
         </div>
       </div>
-      <div class="col-sm">
-        <div class="card" style="width: 42rem; opacity: 95%">
+      <div class="col-sm-md-3">
+        <div class="card" style="opacity: 95%">
           <div class="card-body">
             <div class="mb-3">
               <label
@@ -170,8 +172,10 @@
         </div>
       </div>
     </section>
+    </div>
   {{!-- </section>
 </div> --}}
+{{!-- </main> --}}
 <script src="/javascript/dashboard.js"></script>
 <script src="/javascript/add-post.js"></script>
 <script src="/javascript/edit-post.js"></script>

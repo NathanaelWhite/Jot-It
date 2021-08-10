@@ -50,3 +50,13 @@ body {
     background-color: #ECECEE;
     opacity: 90%;
 }
+
+form {
+  width: 40%;
+}
+
+@media screen and (max-width: 600px) {
+  form {
+    width: 80%;
+  }
+}
