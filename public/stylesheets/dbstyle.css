@@ -163,7 +163,7 @@ button:hover {
   color: #424244;
 }
 
-/* @media screen and (max-width: 1100px) {
+@media screen and (max-width: 1100px) {
   .notes-responsive {
     display: flex;
     flex-direction: column;
@@ -212,4 +212,4 @@ button:hover {
     margin: auto;
     float: none;
   }
-} */
+}
